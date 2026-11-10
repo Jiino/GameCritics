@@ -2,7 +2,9 @@
 
 Site web qui répertorie des jeux vidéo et où les joueurs peuvent donner leur avis.
 
-Projet réalisé en **HTML** et **CSS**.
+Projet réalisé en **HTML** et **CSS** dans le cadre de ma première année de **BTS SIO option SLAM**.
+
+**Site en ligne : [https://jiino.github.io/GameCritics/](https://jiino.github.io/GameCritics/)**
 
 ---
 
@@ -81,3 +83,5 @@ Le CSS contient deux `@media` :
 - **THAI Julien** — Création du dépôt, page avis.html et merci.html et style.css
 
 ---
+
+*Projet réalisé à but pédagogique.*
