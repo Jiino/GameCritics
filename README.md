@@ -77,7 +77,7 @@ Le CSS contient deux `@media` :
 
 ## 👤 Auteur
 
-- ** ANG Thomas** — Création de la page index.html. Amélioration de la page style.css côté responsive
-- ** THAI Julien** — Création du dépôt, page avis.html et merci.html et style.css
+- **ANG Thomas** — Création de la page index.html. Amélioration de la page style.css côté responsive
+- **THAI Julien** — Création du dépôt, page avis.html et merci.html et style.css
 
 ---
