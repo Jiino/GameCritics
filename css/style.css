@@ -144,3 +144,50 @@ footer {
     border-top: 1px solid #2a2a4a;
     color: gray;
 }
+@media (max-width: 768px) {
+ 
+    header h1 {
+        font-size: 28px;
+    }
+ 
+    .contenu {
+        width: 95%;
+    }
+ 
+    .carte {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+ 
+    header h1 {
+        font-size: 22px;
+    }
+ 
+    h2 {
+        font-size: 20px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px auto;
+        width: 70%;
+    }
+ 
+    .carte {
+        width: 100%;
+    }
+ 
+    form {
+        width: 100%;
+        padding: 15px;
+    }
+ 
+    .menu-jeux a {
+        display: block;
+        margin: 8px 0;
+    }
+}
+﻿
+
