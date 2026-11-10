@@ -1,0 +1,146 @@
+body {
+    background-color: #0f0f1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #1a1a2e;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #e94560;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header span {
+    color: #e94560;
+}
+
+nav {
+    text-align: center;
+    margin: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #e94560;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+nav a:hover {
+    background-color: #e94560;
+}
+
+.contenu {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    color: #e94560;
+}
+
+.liste-jeux {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.carte {
+    background-color: #1a1a2e;
+    border: 1px solid #2a2a4a;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.carte h3 {
+    margin-top: 0;
+}
+
+.genre {
+    background-color: #e94560;
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.note {
+    color: gold;
+}
+
+.carte a {
+    color: #e94560;
+}
+
+form {
+    background-color: #1a1a2e;
+    border: 1px solid #2a2a4a;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #e94560;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c73650;
+}
+
+.menu-jeux a {
+    color: white;
+    margin-right: 15px;
+}
+
+.avis {
+    background-color: #1a1a2e;
+    border-left: 4px solid #e94560;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.pseudo {
+    color: #e94560;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #2a2a4a;
+    color: gray;
+}
