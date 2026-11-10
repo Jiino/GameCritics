@@ -1,11 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <title>GameCritics - Accueil</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+
+    <!-- En-tête du site -->
+    <header>
+        <h1>Game<span>Critics</span></h1>
+    </header>
+
+    <!-- Menu -->
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="avis.html">Voir les avis</a>
+    </nav>
+
+    <div class="contenu">
+
+        <h2>Nos jeux</h2>
+        <p>Voici les jeux sur lesquels les joueurs ont donné leur avis.</p>
+
+        <!-- Liste des jeux -->
+        <div class="liste-jeux">
+
+            <div class="carte">
+                <h3>Hades</h3>
+                <span class="genre">Action</span>
+                <p>Un jeu où on essaie de s'échapper des enfers.</p>
+                <p class="note">★★★★★ 4.5/5 (2 avis)</p>
+                <a href="avis.html#hades">Lire les avis</a>
+            </div>
+
+            <div class="carte">
+                <h3>Celeste</h3>
+                <span class="genre">Plateforme</span>
+                <p>Un jeu où on escalade une montagne.</p>
+                <p class="note">★★★★★ 5/5 (1 avis)</p>
+                <a href="avis.html#celeste">Lire les avis</a>
+            </div>
+
+            <div class="carte">
+                <h3>Zelda Breath of the Wild</h3>
+                <span class="genre">Aventure</span>
+                <p>Un grand monde ouvert à explorer.</p>
+                <p class="note">★★★★☆ 4/5 (1 avis)</p>
+                <a href="avis.html#zelda">Lire les avis</a>
+            </div>
+
+        </div>
+
+        <!-- Formulaire pour donner son avis -->
+        <h2>Donne ton avis</h2>
+
+        <form action="merci.html" method="get">
+
+            <label for="pseudo">Ton pseudo :</label>
+            <input type="text" id="pseudo" name="pseudo" required>
+
+            <label for="jeu">Nom du jeu :</label>
+            <input type="text" id="jeu" name="jeu" required>
+
+            <label for="note">Ta note :</label>
+            <select id="note" name="note" required>
+                <option value="">Choisis une note</option>
+                <option value="5">5 - Excellent</option>
+                <option value="4">4 - Très bien</option>
+                <option value="3">3 - Moyen</option>
+                <option value="2">2 - Décevant</option>
+                <option value="1">1 - Nul</option>
+            </select>
+
+            <label for="commentaire">Ton commentaire :</label>
+            <textarea id="commentaire" name="commentaire" rows="5" required></textarea>
+
+            <button type="submit">Envoyer mon avis</button>
+
+        </form>
+
+    </div>
+
+    <footer>
+        <p>GameCritics - Projet BTS SIO SLAM</p>
+    </footer>
+
 </body>
 </html>
